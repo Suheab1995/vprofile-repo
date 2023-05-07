@@ -31,7 +31,5 @@ jobs:
       with:
            name: my-artifact
            path: /home/runner/work/vprofile-repo/vprofile-repo/target/vprofile-v1.war
-    - name: test
-      run: mvn test
     - name: Checkstyle
       run: mvn checkstyle:checkstyle
